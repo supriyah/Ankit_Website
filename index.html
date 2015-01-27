@@ -1,0 +1,337 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Ankit Agrawal</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link rel='icon' type='image/png' href="images/crest.png">
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<script src="js/jquery.min.js"></script>
+		<!--<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css"> -->
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+ 	    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.scrollzer.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<script>
+  			$(function() {
+    		$( "#accordion" ).accordion();
+  			});
+
+  			$(document).ready(function(){
+  				$("#toggle").click(function(){
+    				$("icon fa-chevron-down").toggleClass("icon fa-chevron-down");
+  				});
+			});
+  		</script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript> 
+		<style type="text/css">
+			#one{
+				height: 70% !important;
+				margin-bottom: 2em !important;
+			}
+			#two{
+				height: 40% !important;
+			}
+			#three{
+				height: 80% !important;
+			}
+			#four{
+				height: 80% !important;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+	<!-- Header -->
+			<div id="header" class="skel-layers-fixed">
+				<div class="top">
+					<div id="logo">
+						<span class="image avatar48"><img src="images/avatar.png" alt="" /></span>
+						<h1 id="title">Ankit Agrawal</h1>
+						<p>Graduate Student at UW Madison</p>
+					</div>
+					<nav id="nav">
+						<ul>
+							<li><a href="#aboutMe" id="aboutMe-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+							<li><a href="#education" id="education-link" class="skel-layers-ignoreHref"><span class="icon fa-book">Education</span></a></li>
+							<li><a href="#workExperience" id="workExperience-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Work Experience</span></a></li>
+							<li><a href="#skills" id="skills-link" class="skel-layers-ignoreHref"><span class="icon fa-lightbulb-o">Skills</span></a>
+							<li><a href="#projects" id="projects-link" class="skel-layers-ignoreHref"><span class="icon fa-briefcase">Projects</span></a>
+							<li><a href="#patents" id="patents-link" class="skel-layers-ignoreHref"><span class="icon fa-times-circle-o">Patents</span></a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="bottom">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/pub/ankit-agrawal/a1/968/413" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+						<li><a type="email" href="mailto:aragrawal@cs.wisc.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- About Me -->
+					<section id="aboutMe" class="three">
+						<div class="container">
+							<header>
+								<h2>About Me<h2>
+							</header>
+							<p align="justify">
+								I am a first year Graduate Student pursuing Masters from the <a href="http://www.wisc.edu/">University of Wisconsin-Madison</a>. I graduated from <a href="http://www.bits-pilani.ac.in/pilani/">BITS Pilani</a> majoring in Computer Science. 
+							</p>
+							<p align="justify">
+								I have a 3 year work experience at NVIDIA and was involved in projects including 3D 
+								Vision Pro and NVIDIA Grid vGPU. My areas of interest include Virtualization, Systems, Networking a 
+								new-found one in Artificial Intelligence.
+							</p>
+							<p align="justify">
+								I am currently part of a research project to profile the impact on an enterprise network of 
+								deploying the network middleboxes on cloud.
+							</p>
+						</div>
+					</section>
+					
+				<!-- Education -->
+					<section id="education" class="three">
+						<div class="container">
+							<header>
+								<h2>Education</h2>
+							</header>
+							<table>
+								<tr>
+									<td>University of Wisconsin-Madison</td>
+									<td>2014 to 2016</td>
+									<td>GPA 4.0&#47;4.0</td>
+									<td>
+										<ol>
+											<li>Advanced Operating System</li>
+											<li>Introduction to Artificial Intelligence</li>	
+										</ol>
+									</td>
+								</tr>
+								<tr>
+									<td>BITS Pilani</td>
+									<td>2006 to 2011</td>
+									<td>GPA 8.3&#47;10.0</td>
+									<td>
+										<ol>
+											<li>Operating SystemsComputer</li> 
+											<li>Networks</li> 
+											<li>Network Programming</li> 
+											<li>Advanced Computer Organization</li> 
+											<li>Data Structures and Algorithms</li> 
+											<li>Data Storage Technologies and Networks</li>
+										</ol>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</section>
+
+
+				<!-- Work Experience-->
+					<section id="workExperience" class="three">
+						<div class="container">
+							<header>
+								<h2>Work Experience</h2>
+							</header>
+							<table>
+								<tr>
+									<th>Nvidia Graphics Pvt Ltd</th>
+									<td>Jul'11 to Jul'14</td>
+									<td>System Software Engineer</td>
+									<td>
+										<ol>
+											<li>Implemented the NVIDIA driver changes for a threefold increase in scalability in terms of the maximum number of vGPU VMs supported on a system.</li>
+											<li>Improved the virtual machine graphics performance by implementing an optimized guest physical to machine page translation.</li>	
+											<li>Designed and implemented the infrastructure for automated building of vGPU Xenserver driver.</li>
+										</ol>
+									</td>
+								</tr>
+								<tr>
+									<th>Texas Instruments</th>
+									<td>Jan'06 <br>to<br>Jun'11</td>
+									<td>Intern</td>
+									<td>
+										<ol>
+											<li>Ported the Logging mechanism of eclipse's Real-Time Software Component (RTSC) to C.</li> 
+											<li>Incorporated additional features based on the requirements from Texas Instruments in thelogging mechanisms.</li>
+										</ol>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</section>
+			
+				
+					<!-- Skills -->
+					<section id="skills" class="three">
+						<div class="container">
+							<header>
+								<h2>Skills</h2>
+							</header>
+							<table>
+								<tr>
+									<th>Programming Languages</th>
+									<td>
+										<ol>
+											<li>C</li>
+											<li>Java</li>
+											<li>Python</li>
+											<li>Bash</li>
+										</ol>
+									</td>
+								</tr>
+								<tr>
+									<th>Operating Systems</th>
+									<td>
+										<ol>
+											<li>Linux (RHEL, Fedora, Ubuntu)</li>
+											<li>Microsoft Windows Family</li>		
+										</ol>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</section>
+
+					<!-- Projects -->
+					<section id="projects" class="three">
+						<div class="container">
+							<header>
+								<h2>Projects</h2>
+							</header>
+							<div id="accordion">
+							<table>
+								<tr>
+									<td >Virtual Middlebox<span  class="icon fa-chevron-down" style="float:right;cursor:pointer"></span></td>
+									
+								</tr>
+
+							</table> 
+							<div id="one">
+    							<p align="justify">
+    								We are doing an analysis of the performance impacts of moving the network middleboxes to virtual machines and containers. The goal is to design a scalable and an optimized enterprise network with middlebox elements deployed on cloud. We will explore the opportunities to deploy the middlebox by keeping the following things in mind:
+    							</p>
+    							<ol>
+    								<li>Minimize the data copying between middleboxes.</li>
+    								<li>Optimize the data transfer time between the middleboxes.</li>
+    								<li>Minimize the computation on a packet as it pass through the middlebox stack.</li>
+    								<li>Load balancing of the computations for the network packets.</li>
+    								<li>Data security by restricting the communication to only a set of authorized middleboxes.</li>
+    							<ol>
+  							</div>
+
+  							<table>
+								<tr>
+									<td>Eclipse Plugin for Swamp<span class="icon fa-chevron-down" style="float:right;cursor:pointer"></span></td>
+								</tr>
+							</table>
+
+  							<div id="two">
+    							<p align="justify">
+    								<a href="https://continuousassurance.org/">SWAMP</a> is a framework to perform analysis on the user source code and seek for potential security vulnerabilities. I am working to create a plugin for the Eclipse IDE. The plugin will allow the user to ship their project (C/C++, JAVA and Python) from the workspace to the SWAMP cloud infrastructure for analysis. The development effort is in Java.
+    							</p>
+    						</div>
+    						<table>
+								<tr>
+									<td>Isolation:Linux Containers v/s Xen Virtual Machines<span class="icon fa-chevron-down" style="float:right;cursor:pointer"></span></td>
+								</tr>
+							</table>
+  							<div id="three">
+    							<p align="justify">
+    								Virtualization systems share several hardware resources that includes CPU, memory and the I/O devices and thus the challenge of performance isolation arise. Ideally, an application running inside one environment should not at all be affected from the activities of the other environments it shares hardware resources with. We quantify the extent of isolation provided by the two popular virtualization systems Xen and Linux containers (LXC) by performing a series of experiments on CPU, memory, network card and the block I/O.
+									Findings:
+    							</p>
+    							<table>
+    								<tr>
+    									<th>Test</th>
+    									<th>LXC</th>
+    									<th>Xen VM</th>	
+    								</tr>
+    								<tr>
+    									<td>CPU</td>
+    									<td>Isolated</td>
+    									<td>Isolated</td>	
+    								</tr>
+    								<tr>
+    									<td>Recursive Fork</td>
+    									<td>Not Isolated</td>
+    									<td>Isolated</td>	
+    								</tr>
+    								<tr>
+    									<td>Network</td>
+    									<td>LXC</td>
+    									<td>Xen VM</td>	
+    								</tr>
+    								<tr>
+    									<td>Test</td>
+    									<td>Not Isolated</td>
+    									<td>Only egressing traffic isolated</td>	
+    								</tr>
+    								<tr>
+    									<td>Block I/O</td>
+    									<td>Partially Isolated</td>
+    									<td>Not Isolated</td>	
+    								</tr>	
+    							</table>	
+  							</div>
+  							<table>
+								<tr>
+									<td>Code Compression Inspired by Procedural Abstraction<span class="icon fa-chevron-down" style="float:right;cursor:pointer"></span></td>
+								</tr>
+							</table>
+  							
+  							<div id="four">
+    							<p align="justify">
+    								<b>Motivation:</b> Source code size reduction for embedded systems due to the lack of memory resources. 
+    								<br>
+    								​<b>Procedural Abstraction:</b> Code is searched for matching sequences and those sequences are then replaced by a single procedure resulting in lower program size. 
+    								<br>
+    								<b>Additional Compression:</b> We observed that there is an opportunity for further compression by identifying the sequence of instructions that matches only partially (in the opcode part). We proposed a new compression algorithm to seek for repeating sequences of opcodes in the code section. Since the probability of ﬁnding a matching sequence of opcode is greater, it is possible to ﬁnd sequences that are frequent and large in size. The repeating sequences are replaced by a marker instruction and are divided into the opcode and non-opcode parts. The code size reduction is obtained by saving only one copy of the opcode part of the repeating sequence and discarding others. 
+    								<br>
+    								<b>Opportunity</b>: When tested on multiple small ARMv6 programs, we found out that there is an opportunity for compression in the range of 3-5%.
+    								<br>
+    								<b>Roadblock:</b> An implementation of the decompression algorithm on the hardware was proposed that required changes to the ARMv6 instruction pipeline. However, maintaining clock sync to correctly generate instructions from the subparts and stalling new instructions until the decompression completes were the biggest setbacks to the implementation
+    							</p>
+  							</div>
+  							</div>
+						</div>
+					</section>
+
+					<!-- Patents -->
+					<section id="patents" class="three" >
+						<div class="container">
+							<header>
+								<h2>Patents</h2>
+							</header>
+							<table>
+								<tr>
+    								<th rowspan="2">Virtualized GPU Engine</th>
+    								<td>NVIDIA Graphics Pvt Ltd</td>
+    								<td>Pending under USPTO: 13/915630</td>
+    								<td>
+    									<ol>
+    										<li>Proposed a mechanism to virtualize the various GPU engines to be used as independent devices by the Virtual Machines (VM).</li>
+    										<li>Suggested the design architecture to support the feature. The proposal is to build a software unit to trap the I/O requests from the VM corresponding to their GPU engine devices, and manage the execution on the real hardware GPU.</li>
+    									</ol>
+    								</td>
+ 								</tr>
+  								
+							</table>
+						</div>
+					</section>
+				</div>
+		</body>
+</html>
