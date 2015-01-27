@@ -210,15 +210,15 @@
 			
 			.image.avatar48
 			{
-				width: 120px;
-				height: 120px;
+				width: 100px;
+				height: 100px;
 				background: #f00;
 			}
 			
 				.image.avatar48 img
 				{
-					width: 120px;
-					height: 120px;
+					width: 100px;
+					height: 100px;
 					
 				}
 
@@ -597,10 +597,12 @@ only screen and (max-width: 760px),
 	
 		#header .top
 		{
-			position: absolute;
+			/*position: relative;*/
+			
 			left: 0;
 			top: 0;
 			width: 100%;
+			overflow-y:auto; 
 		}
 	
 		#header .bottom
@@ -670,10 +672,14 @@ only screen and (max-width: 760px),
 	
 	#nav
 	{
+		height: 100%;
+		overflow-y:auto;
+
 	}
 	
 		#nav ul
 		{
+
 		}
 		
 			#nav ul li
